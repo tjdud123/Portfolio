@@ -1,0 +1,213 @@
+@-webkit-keyframes bounce {
+  40% {
+    transform: translateY(9px);
+  }
+  55% {
+    transform: translateY(-1px);
+  }
+  70% {
+    transform: translateY(4px);
+  }
+}
+@keyframes bounce {
+  40% {
+    transform: translateY(9px);
+  }
+  55% {
+    transform: translateY(-1px);
+  }
+  70% {
+    transform: translateY(4px);
+  }
+}
+main {
+  background-color: #eee;
+}
+main .page {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+main .first h2 {
+  font-size: 1.25rem;
+  color: #4A47E6;
+  letter-spacing: 3px;
+  padding-top: 64px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+main .first h2 span {
+  display: block;
+  content: "";
+  width: 750px;
+  height: 4px;
+  background-color: #4A47E6;
+}
+main .first h1 {
+  font-family: "Black Han Sans", sans-serif;
+  color: #4A47E6;
+  text-align: center;
+  font-size: 10rem;
+  padding: 180px 0;
+  letter-spacing: -12.8px;
+}
+main .first h1 span {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 10rem;
+}
+main .start_nav nav {
+  background-color: #f6f6f6;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+main .start_nav nav ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main .start_nav nav ul .icons a {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 20px;
+}
+main .start_nav nav ul .icons a img {
+  width: 30px;
+  height: 30px;
+}
+main .start_nav nav ul .icons a span {
+  font-size: 0.938rem;
+  opacity: 0;
+}
+main .start_nav nav ul .home_icon a p {
+  width: 30px;
+  height: 30px;
+  background-image: url(../imges/nav_icon/home.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+main .start_nav nav ul .home_icon a:hover p {
+  background-image: url(../imges/nav_icon/home_active.png);
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+}
+main .start_nav nav ul .home_icon a:hover span {
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+  opacity: 1;
+  color: #4A47E6;
+}
+main .start_nav nav ul .ref_icon a p {
+  width: 30px;
+  height: 30px;
+  background-image: url(../imges/nav_icon/reference.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+main .start_nav nav ul .ref_icon a:hover p {
+  background-image: url(../imges/nav_icon/reference_active.png);
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+}
+main .start_nav nav ul .ref_icon a:hover span {
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+  opacity: 1;
+  color: #4A47E6;
+}
+main .start_nav nav ul .resume_icon a p {
+  width: 30px;
+  height: 30px;
+  background-image: url(../imges/nav_icon/resume.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+main .start_nav nav ul .resume_icon a:hover p {
+  background-image: url(../imges/nav_icon/resume_active.png);
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+}
+main .start_nav nav ul .resume_icon a:hover span {
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+  opacity: 1;
+  color: #4A47E6;
+}
+main .start_nav nav ul .clone_icon a p {
+  width: 30px;
+  height: 30px;
+  background-image: url(../imges/nav_icon/web.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+main .start_nav nav ul .clone_icon a:hover p {
+  background-image: url(../imges/nav_icon/web_active.png);
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+}
+main .start_nav nav ul .clone_icon a:hover span {
+  -webkit-animation: bounce 0.5s linear;
+          animation: bounce 0.5s linear;
+  opacity: 1;
+  color: #4A47E6;
+}
+main .start_nav .second { /* background-color: #4A47E6; */
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto; /* background-color: #4A47E6; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main .start_nav .second .worker {
+  padding-top: 76px;
+}
+main .start_nav .second .worker .worker_content {
+  width: 493px;
+  position: relative; /* background-color: #4A47E6; */
+}
+main .start_nav .second .worker .worker_content .heading {
+  text-align: center;
+  padding-bottom: 42px;
+}
+main .start_nav .second .worker .worker_content .bubble {
+  text-align: center;
+  z-index: 1;
+}
+main .start_nav .second .worker .worker_content .bubble img {
+  margin-bottom: 91px;
+  border-radius: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+main .start_nav .second .worker .worker_content .tails {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  z-index: 0;
+}
+main .start_nav .second .reference {
+  /* background-color: #fff; */
+  padding-top: 76px;
+}
+main .start_nav .second .reference .ref_content { /* background-color: #333; */
+  width: 588px;
+}
+main .start_nav .second .reference .ref_content .heading {
+  text-align: center;
+  padding-bottom: 42px;
+}
+main .start_nav .second .reference .ref_content .bubble {
+  width: 100%;
+}
+main .start_nav .second .reference .ref_content .bubble img {
+  margin-bottom: 73px;
+  border-radius: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}/*# sourceMappingURL=index.css.map */
